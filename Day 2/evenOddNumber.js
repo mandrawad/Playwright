@@ -1,0 +1,10 @@
+function isOddOrEven(){
+    let num = 2;
+    if(num % 2 === 0){
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+console.log("The number is " + isOddOrEven());
