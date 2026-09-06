@@ -29,8 +29,6 @@ console.log(fruits); // Output: ["Mango", "apple", "banana", "orange", "grape", 
 fruits.shift(); // Removing the first element from the array
 console.log(fruits); // Output: ["apple", "banana", "orange", "grape", "kiwi"]
 
-
-
 //sort
 fruits.sort();
 console.log(fruits); // Output: ["apple", "banana", "grape", "kiwi", "orange"]  

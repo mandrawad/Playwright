@@ -1,4 +1,4 @@
-arr1 = [10, 20, 30, 40, 50];
+arr1 = [10, 120, 30, 40, 50];
 arr2 = [20, 40, 60, 80, 100];
 
 function intersection(arr1, arr2) {
@@ -16,4 +16,4 @@ function intersection(arr1, arr2) {
     console.log("Uncommon Elements:" + uncommonElements);
 }
 
-console.log(intersection(arr1, arr2)); // Output: [20, 40]
+intersection(arr1, arr2); // Output: [20, 40]
